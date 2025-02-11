@@ -5,6 +5,10 @@
 /**
  * add event on element
  */
+document.querySelector('a[href="https://www.cognizant.com"]').addEventListener('click', function() {
+    var cognizantLinkClick = "Cognizant Link Clicked";
+    return cognizantLinkClick;
+});
 
 const addEventOnElem = function (elem, type, callback) {
   if (elem.length > 1) {
